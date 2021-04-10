@@ -1,0 +1,25 @@
+pkgbase = dbeaver-ce-latest-deb
+	pkgdesc = DBeaver Community Edition, Universal Database Manager and SQL Client
+	pkgver = 7.3.5
+	pkgrel = 1
+	url = https://dbeaver.io
+	arch = x86_64
+	license = GPL
+	depends = java-runtime
+	depends = gtk3
+	depends = gtk-update-icon-cache
+	depends = libsecret
+	optdepends = dbeaver-plugin-apache-poi: DBeaver library for Microsoft Office documents
+	optdepends = dbeaver-plugin-batik: DBeaver library for SVG format
+	optdepends = dbeaver-plugin-bouncycastle: Bouncy Castle library for DBeaver plugin for SSHv2 tunnels
+	optdepends = dbeaver-plugin-office: export data in Microsoft Office Excel format
+	optdepends = dbeaver-plugin-sshj: DBeaver plugin for SSHv2 tunnels with Bouncy Castle algorithm
+	optdepends = dbeaver-plugin-sshj-lib: SSHv2 library for Java for DBeaver plugin for SSHv2 tunnels
+	optdepends = dbeaver-plugin-svg-format: save diagrams in SVG format
+	conflicts = dbeaver
+	conflicts = dbeaver-ee
+	source = https://dbeaver.io/files/7.3.5/dbeaver-ce_7.3.5_amd64.deb
+	sha256sums = e41618afdf61f5679de2a6ec423b9d168936439936ae211a151c59790df92fde
+
+pkgname = dbeaver-ce-latest-deb
+

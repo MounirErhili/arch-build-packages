@@ -1,0 +1,14 @@
+pkgbase = easyeda
+	pkgdesc = EasyEDA Desktop Client, A Simple and Powerful Electronic Circuit Design Tool
+	pkgver = 6.4.19.4
+	pkgrel = 1
+	url = https://easyeda.com/page/download
+	arch = x86_64
+	license = custom
+	depends = gconf
+	options = !strip
+	source = https://image.easyeda.com/files/easyeda-linux-x64-6.4.19.4.zip
+	sha256sums = 22c4d5c8c1b5fa0534353559d92834462456d8cfd15116f695faf5083d50fc4c
+
+pkgname = easyeda
+
